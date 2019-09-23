@@ -14,11 +14,22 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
     <title>Hello, world!</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light heavy-rain-gradient">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
         <a class="navbar-brand" href="#">Joshua Fowler</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,82 +41,244 @@
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Portfolio">Portfolio</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Contact">Contact Me</a>
+                    <a class="nav-link" href="#contact">Contact Me</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-  <!-- News jumbotron -->
-<div class="jumbotron text-center hoverable p-4">
+    <!-- News jumbotron -->
+    <div class="jumbotron text-center hoverable p-4 z-depth-3">
 
         <!-- Grid row -->
         <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-4 offset-md-1 mx-3 my-3">
+
+                <!-- Featured image -->
+                <div class="view overlay">
+                    <img src="assets/images/josh3.jpg" class="img-fluid rounded-circle z-depth-1"
+                        alt="Sample image for first version of blog listing">
+                    <a>
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-7 text-md-left ml-3 mt-3">
+
+
+
+                <h5 class="mt-0">About Me</h5>
+                <p>
+                    My name is Joshua Fowler. I am 26 years old and I live in Downtown Orlando, Florida. I graduated
+                    UCF in
+                    2015
+                    with a
+                    bachelor's degree in human communications. With that degree I worked in radio for 5 years and
+                    continue
+                    to
+                    dabble
+                    while I bartend and go to school.
+                    I am currently enrolled in UCF coding bootcamp in order to learn a new skill set and enter a new
+                    career
+                    field.
+                    <br>
+                    <br>
+                    I have been married to my wife for just 4 months now. We have two beautiful cats together. We
+                    also still
+                    have a
+                    roommate, which is similar to having a child.
+                    Together we enjoy travelling, trying new foods and cocktails, and going to shows.
+                    <br>
+                    <br>
+                    Working in radio has afforded me some cool opportunities. For example, I once shared a stage
+                    with Coolio
+                    and
+                    Joey
+                    Fatone. However, nothing compares to the sense of accomplishment felt when your nephews are
+                    marginally
+                    impressed
+                    by
+                    your collection of Fortnite skins.
+                </p>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- News jumbotron -->
+    <!-- Grid row -->
+<div class="row" id="portfolio">
+
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-12">
       
-          <!-- Grid column -->
-          <div class="col-md-4 offset-md-1 mx-3 my-3">
+          <!--Card-->
+          <div class="card z-depth-3">
       
-            <!-- Featured image -->
-            <div class="view overlay">
-              <img src="assets/images/josh3.jpg" class="img-fluid rounded-circle z-depth-1" alt="Sample image for first version of blog listing">
-              <a>
+            <!--Card image-->
+            <div class="view">
+              <img src="assets/images/rupee.png" class="card-img-top"
+                alt="photo">
+              <a href="https://jfowler93.github.io/unit-4-game/" target="blank">
                 <div class="mask rgba-white-slight"></div>
               </a>
             </div>
       
-          </div>
-          <!-- Grid column -->
-      
-          <!-- Grid column -->
-          <div class="col-md-7 text-md-left ml-3 mt-3">
-      
-           
-      
-            <h5 class="mt-0">About Me</h5>
-                    <p>
-                        My name is Joshua Fowler. I am 26 years old and I live in Downtown Orlando, Florida. I graduated
-                        UCF in
-                        2015
-                        with a
-                        bachelor's degree in human communications. With that degree I worked in radio for 5 years and
-                        continue
-                        to
-                        dabble
-                        while I bartend and go to school.
-                        I am currently enrolled in UCF coding bootcamp in order to learn a new skill set and enter a new
-                        career
-                        field.
-                        <br>
-                        <br>
-                        I have been married to my wife for just 4 months now. We have two beautiful cats together. We
-                        also still
-                        have a
-                        roommate, which is similar to having a child.
-                        Together we enjoy travelling, trying new foods and cocktails, and going to shows.
-                        <br>
-                        <br>
-                        Working in radio has afforded me some cool opportunities. For example, I once shared a stage
-                        with Coolio
-                        and
-                        Joey
-                        Fatone. However, nothing compares to the sense of accomplishment felt when your nephews are
-                        marginally
-                        impressed
-                        by
-                        your collection of Fortnite skins.
-                    </p>
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">Rupee Ransom!</h4>
+              <!--Text-->
+              <p class="card-text">Test Your Math Skills and Triumph Over Evil!</p>
+            </div>
       
           </div>
-          <!-- Grid column -->
+          <!--/.Card-->
       
         </div>
-        <!-- Grid row -->
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-12">
+      
+          <!--Card-->
+          <div class="card z-depth-3">
+      
+            <!--Card image-->
+            <div class="view">
+              <img src="assets/images/trivia.png" class="card-img-top"
+                alt="photo">
+              <a href="https://jfowler93.github.io/TriviaGame/" target="blank">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+      
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">The Gang Becomes a Trivia Game!</h4>
+              <!--Text-->
+              <p class="card-text">Test Your Knowledge of "It's Always Sunny in Philadelphia."</p>
+            </div>
+      
+          </div>
+          <!--/.Card-->
+      
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-12">
+      
+          <!--Card-->
+          <div class="card z-depth-3">
+      
+            <!--Card image-->
+            <div class="view">
+              <img src="assets/images/giftastic.png" class="card-img-top"
+                alt="photo">
+              <a href="https://jfowler93.github.io/gif-tastic/" target="blank">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+      
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">GifTastic!</h4>
+              <!--Text-->
+              <p class="card-text">Find Your Favorite Gifs! All Conveniently Located in one Place!</p>
+            </div>
+      
+          </div>
+          <!--/.Card-->
+      
+        </div>
+        <!-- Grid column -->
+      
       
       </div>
-      <!-- News jumbotron -->
+      <!-- Grid row -->
 
+      <!-- contact form code -->
+      <div class="jumbotron text-left">
+    <div class="container" id="contact">
+            <h1>Contact Me</h1>
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">What's Your Name?</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="First McLast">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Air your grievances here"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+        <!-- contact form code -->
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
 
+        <!-- Footer Elements -->
+        <div class="container">
+      
+          <!-- Social buttons -->
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-fb mx-1">
+                <i class="fab fa-facebook-f"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-tw mx-1">
+                <i class="fab fa-twitter"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-gplus mx-1">
+                <i class="fab fa-google-plus-g"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-li mx-1">
+                <i class="fab fa-linkedin-in"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-dribbble mx-1">
+                <i class="fab fa-dribbble"> </i>
+              </a>
+            </li>
+          </ul>
+          <!-- Social buttons -->
+      
+        </div>
+        <!-- Footer Elements -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright: Joshua Fowler
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
 </body>
+
+</html>
