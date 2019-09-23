@@ -1,0 +1,14 @@
+#avatar {
+    width: 210px;
+    height: 210px;
+}
+
+body {
+    background-image: url(../images/hotel-wallpaper-black.png)
+}
+
+.jumbotron {
+    background-color: transparent;
+    background-color: rgba(96, 125, 139, 0.438);
+    color: whitesmoke
+}
